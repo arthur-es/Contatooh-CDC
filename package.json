@@ -9,6 +9,7 @@
   "author": "Arthur Castro",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^0.8.8",
     "express": "^4.8.8"
   }
 }
