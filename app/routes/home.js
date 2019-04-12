@@ -1,3 +1,4 @@
 module.exports = function(app) {
-    app.get('/');
-}
+    var controller = app.controller.home;
+    app.get('/', controller.index);
+};
